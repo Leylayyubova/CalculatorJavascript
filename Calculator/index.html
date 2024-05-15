@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+<section class="phone">
+    <div class="container">
+        <div class="phone-screen">
+            <div class="box">
+                <header>
+                    <p>14:00</p>
+                    <div class="icon">
+                        <i class="fa fa-brands fa-bluetooth-b"></i>
+                        <i class="fa fa-wifi"></i>
+                        <i class="fa fa-solid fa-battery-full"></i>             
+                    </div>
+                </header>
+            </div>
+        </div>       
+    </div>
+    <div class="areacalculator">
+        <h1>Düzbucaqlınln sahə və perimetr kalkulyatoru</h1>
+        <form action="">
+            <input type="text" id="width" placeholder="Uzunluğu daxil edin.">
+            <input type="text" id="height" placeholder="Hündürlüyü daxil edin.">
+            <button onclick="calculate()" type="button">Hesabla</button>
+        </form>
+        <div id="perimeterResult"></div>
+        <div id="areaResult"></div>
+    </div>
+</section>
+<script src="./main.js"></script>
+</body>
+
+</html>
